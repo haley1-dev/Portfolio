@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer {
+    position: absolute; 
+    bottom: 0;
+    text-align: left;
+    display: flex;
+    background-color: rgb(139, 156, 202);
+    width:100%;
+}
+
+.row {
+    padding: 5px;
+}
+
+a.social-link {
+    text-decoration:none; 
+    color:inherit;
+}
+a:hover {
+    cursor: pointer;
+    color: grey;
+}
